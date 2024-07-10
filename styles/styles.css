@@ -98,6 +98,11 @@ body {
                 }
             }
         }
+
+        .img-container {
+            flex-basis: inherit;
+            border-radius: 0 0 10px 10px;
+        }
     }
 }
 
@@ -130,9 +135,7 @@ body {
         }
 
         .img-container {
-            flex-basis: inherit;
             height: 360px;
-            border-radius: 0 0 10px 10px;
         }
     }
 }
@@ -164,6 +167,10 @@ body {
                 justify-content: space-between;
             }
 
+        }
+
+        .img-container {
+            height: 220px;
         }
     }
 }

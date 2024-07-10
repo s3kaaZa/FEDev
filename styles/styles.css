@@ -15,6 +15,7 @@ body {
         display: flex;
         flex-direction: column;
         gap: 36px;
+        flex: 1;
 
         h2 {
             font-size: 30px;
@@ -57,11 +58,11 @@ body {
         }
     }
 
-    figure {
+    .img-container {
         margin: 0;
-        
-        img {
-            border-radius: 0 10px 10px 0;
-        }
+        background-image: url("../img/image\ 15.jpg");
+        background-position: center center;
+        background-size: cover;
+        flex-basis: 50%;        
     }
 }

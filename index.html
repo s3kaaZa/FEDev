@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/modal.css">
     <title>Document</title>
 </head>
 
@@ -23,6 +24,38 @@
         </div>
         <figure class="img-container"></figure>
     </main>
+
+    <div id="modal-overlay" class="modal-overlay">
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <div class="close-button-container">
+                    <span class="close-button">
+                        <img src="./img/close_btn.svg" alt="close button">
+                    </span>
+                </div>
+                <form id="authForm">
+                    <span class="form-title">Войти в систему</span>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email/Телефон" required>
+                        <input type="password" id="password" name="password" placeholder="Пароль" required>
+                    </div>
+                    <div class="form-group remember">
+                        <input type="checkbox" id="remember-password" name="remember-password">
+                        <label for="remember-password">Запомнить пароль</label>
+                    </div>
+                    <div class="form-group">
+                        <a href="#" class="password-reset-link">Восстановить</a>
+                    </div>
+                    <div class="form-group buttons">
+                        <button type="submit" class="login-button">Войти</button>
+                        <button type="button" class="register-button">Зарегистрироваться</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/index.js"></script>
 </body>
 
 </html>

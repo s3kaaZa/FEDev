@@ -19,7 +19,8 @@
     transform: translate(-50%, -50%);
     background-color: #f0f4fc;
     padding: 24px;
-    width: 452px;
+    max-width: 452px;
+    width: 100%;
 
     .modal-content {
         display: flex;
@@ -136,4 +137,5 @@
 .close-button:hover,
 .close-button:focus {
     cursor: pointer;
+    background-color: #d9d9d9;
 }
